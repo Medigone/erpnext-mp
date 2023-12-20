@@ -1,0 +1,510 @@
+2023-12-11 19:42:53,126 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticles Facture Route` MODIFY `montant_tva` decimal(21,9) not null default 0, MODIFY `prix_unitaire` decimal(21,9) not null default 0, MODIFY `total_ht` decimal(21,9) not null default 0
+2023-12-11 23:02:57,767 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticles Facture Route` MODIFY `montant` decimal(21,9) not null default 0, MODIFY `prix_unitaire` decimal(21,9) not null default 0, MODIFY `tva` decimal(21,9) not null default 0, MODIFY `montant_tva` decimal(21,9) not null default 0
+2023-12-11 23:12:49,477 WARNING database DDL Query made to DB:
+RENAME TABLE `tabFacture Route` TO `tabFacture`
+2023-12-11 23:30:30,698 WARNING database DDL Query made to DB:
+RENAME TABLE `tabFacture` TO `tabFacture Route`
+2023-12-11 23:59:20,347 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` ADD COLUMN `total_quantite_facture` int(11) not null default 0
+2023-12-11 23:59:20,352 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0
+2023-12-12 00:06:11,421 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0
+2023-12-12 12:42:00,078 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0
+2023-12-12 12:43:16,520 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_ht_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_tva_facture` decimal(21,9) not null default 0
+2023-12-12 14:30:48,876 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` ADD COLUMN `nom_client_fr` varchar(140)
+2023-12-12 14:30:48,881 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_ht_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_tva_facture` decimal(21,9) not null default 0
+2023-12-12 14:41:15,794 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0, MODIFY `total_tva_facture` decimal(21,9) not null default 0
+2023-12-12 14:47:58,074 WARNING database DDL Query made to DB:
+ALTER TABLE `tabArticles Facture Route` MODIFY `prix_unitaire` decimal(21,9) not null default 0, MODIFY `tva` decimal(21,9) not null default 0, MODIFY `montant_tva` decimal(21,9) not null default 0, MODIFY `total_ttc` decimal(21,9) not null default 0, MODIFY `montant` decimal(21,9) not null default 0
+2023-12-12 15:50:17,319 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0
+2023-12-12 16:02:47,019 WARNING database DDL Query made to DB:
+ALTER TABLE `tabLivreurs` ADD COLUMN `nom_livreur` varchar(140), ADD COLUMN `prenom_livreur` varchar(140), ADD COLUMN `nom_complet_livreur` varchar(140)
+2023-12-13 10:09:02,154 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0
+2023-12-14 13:34:37,924 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer` MODIFY `qualite_client` decimal(3,2), MODIFY `default_commission_rate` decimal(21,9) not null default 0
+2023-12-16 10:57:23,465 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` ADD COLUMN `commune` varchar(140)
+2023-12-16 10:57:23,483 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0
+2023-12-17 10:58:36,967 WARNING database DDL Query made to DB:
+ALTER TABLE `tabCustomer` MODIFY `default_commission_rate` decimal(21,9) not null default 0, MODIFY `qualite_client` decimal(3,2)
+2023-12-17 13:04:53,209 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPurchase Receipt` MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0
+2023-12-17 13:08:11,442 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPurchase Order` MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_received` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_tax_withholding_net_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0
+2023-12-17 17:19:47,481 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPurchase Order` MODIFY `base_tax_withholding_net_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_taxes_and_charges_deducted` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `taxes_and_charges_added` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `per_received` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0
+2023-12-17 18:27:37,593 WARNING database DDL Query made to DB:
+create table `tabType Depenses` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-17 18:39:16,123 WARNING database DDL Query made to DB:
+ALTER TABLE `tabType Depenses` ADD COLUMN `type_depenses` varchar(140)
+2023-12-17 18:40:02,618 WARNING database DDL Query made to DB:
+ALTER TABLE `tabType Depenses` ADD UNIQUE INDEX IF NOT EXISTS type_depenses (`type_depenses`)
+2023-12-17 18:43:45,586 WARNING database DDL Query made to DB:
+create table `tabDepenses` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-17 18:45:02,925 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `date` date, ADD COLUMN `type_depense` varchar(140)
+2023-12-17 18:46:23,459 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:46:54,844 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `remarque` text
+2023-12-17 18:46:54,849 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:48:07,048 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:48:34,525 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:48:55,701 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:49:05,482 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:58:23,946 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `vehicule` varchar(140)
+2023-12-17 18:58:23,951 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 18:58:33,370 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 19:01:56,090 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 19:03:16,325 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 19:03:32,887 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 19:03:56,550 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 19:05:20,505 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` ADD COLUMN `chauffeur` varchar(140)
+2023-12-17 19:05:20,512 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 19:06:20,660 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 19:53:19,192 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 19:54:00,293 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 19:57:00,339 WARNING database DDL Query made to DB:
+create table `tabAvances Paie` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-17 19:57:27,044 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `date` date
+2023-12-17 19:58:23,660 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `utilisateur` varchar(140)
+2023-12-17 19:59:08,039 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:00:17,626 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:00:17,632 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:06:57,077 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:07:21,930 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:08:34,655 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `workflow_state` varchar(140)
+2023-12-17 20:08:34,671 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:26:57,998 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `nom_complet` varchar(140)
+2023-12-17 20:26:58,011 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:27:06,537 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:27:42,553 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:29:23,087 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `full_name` varchar(140)
+2023-12-17 20:29:23,091 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:30:15,552 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:30:47,754 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `nom` varchar(140)
+2023-12-17 20:30:47,759 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:31:01,117 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:31:42,616 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:32:45,763 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:33:19,221 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `amended_from` varchar(140)
+2023-12-17 20:33:19,225 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:33:19,232 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD INDEX `amended_from_index`(`amended_from`)
+2023-12-17 20:34:59,065 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_demande` decimal(21,9) not null default 0, MODIFY `montant_remis` decimal(21,9) not null default 0
+2023-12-17 20:41:51,732 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:48:34,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant_remis` decimal(21,9) not null default 0, MODIFY `montant_demande` decimal(21,9) not null default 0
+2023-12-17 20:50:00,844 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` ADD COLUMN `montant` decimal(21,9) not null default 0
+2023-12-17 20:54:06,116 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-17 21:11:50,735 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 21:13:55,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 21:18:31,215 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `amended_from` varchar(140)
+2023-12-17 21:18:31,221 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` decimal(21,9) not null default 0
+2023-12-17 21:18:31,231 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD INDEX `amended_from_index`(`amended_from`)
+2023-12-17 21:19:27,584 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `montant_depense` int(11) not null default 0
+2023-12-17 22:01:48,516 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `workflow_state` varchar(140)
+2023-12-17 22:56:08,192 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 22:56:49,216 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 22:58:23,500 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 22:58:57,809 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 22:59:28,569 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 23:00:03,455 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `fuel_type` varchar(140) default 'Diesel', MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 23:02:42,410 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` ADD COLUMN `vehicule` varchar(140)
+2023-12-17 23:02:42,415 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0
+2023-12-17 23:04:23,865 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0
+2023-12-17 23:05:09,883 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0
+2023-12-17 23:05:34,626 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0
+2023-12-17 23:08:36,118 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 23:09:07,235 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-17 23:09:59,933 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 23:12:04,621 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 23:12:20,817 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 23:13:02,013 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `vehicle_value` decimal(21,9) not null default 0, MODIFY `uom` varchar(140)
+2023-12-17 23:51:00,378 WARNING database DDL Query made to DB:
+ALTER TABLE `tabAvances Paie` MODIFY `montant` int(11) not null default 0
+2023-12-18 00:48:13,022 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `kilom_vehicule` varchar(140)
+2023-12-18 00:49:48,594 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` MODIFY `kilom_vehicule` int(11) not null default 0
+2023-12-18 00:55:39,625 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` ADD COLUMN `date_livraison` date
+2023-12-18 00:55:39,632 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0
+2023-12-18 10:30:11,454 WARNING database DDL Query made to DB:
+create table `tabOdometre` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-18 10:32:36,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabOdometre` ADD COLUMN `date` date, ADD COLUMN `vehicule` varchar(140), ADD COLUMN `releve` int(11) not null default 0
+2023-12-18 10:35:51,750 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-18 10:48:45,306 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDepenses` ADD COLUMN `utilisateur` varchar(140)
+2023-12-18 10:51:51,126 WARNING database DDL Query made to DB:
+create table `tabVersement Banque` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`amended_from` varchar(140),
+`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index `amended_from`(`amended_from`),
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-18 10:52:20,476 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` ADD COLUMN `date` date
+2023-12-18 10:53:32,067 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` ADD COLUMN `client` varchar(140), ADD COLUMN `montant` decimal(21,9) not null default 0
+2023-12-18 11:01:14,792 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:02:46,157 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:04:41,710 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` ADD COLUMN `bordereau` varchar(140)
+2023-12-18 11:04:41,719 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:04:50,716 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:05:45,030 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` ADD COLUMN `photo_bordereau` text
+2023-12-18 11:05:45,035 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:05:50,439 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` decimal(21,9) not null default 0
+2023-12-18 11:09:35,369 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVersement Banque` MODIFY `montant` int(11) not null default 0
+2023-12-18 11:23:03,647 WARNING database DDL Query made to DB:
+create table `tabPaiements Livraisons` (
+			name varchar(140) primary key,
+			creation datetime(6),
+			modified datetime(6),
+			modified_by varchar(140),
+			owner varchar(140),
+			docstatus int(1) not null default '0',
+			idx int(8) not null default '0',
+			`_user_tags` text,
+`_comments` text,
+`_assign` text,
+`_liked_by` text,
+index modified(modified))
+			ENGINE=InnoDB
+			ROW_FORMAT=DYNAMIC
+			CHARACTER SET=utf8mb4
+			COLLATE=utf8mb4_unicode_ci
+2023-12-18 11:23:27,019 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `date` date
+2023-12-18 11:24:54,591 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `client` varchar(140)
+2023-12-18 11:25:48,011 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `utilisateur` varchar(140)
+2023-12-18 11:26:08,780 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `montant` int(11) not null default 0
+2023-12-18 11:26:31,285 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `beneficiaire` varchar(140)
+2023-12-18 11:26:59,838 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `recu` text
+2023-12-18 11:28:06,863 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `moyen_paiement` varchar(140)
+2023-12-18 11:29:07,960 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `montant_esp` int(11) not null default 0
+2023-12-18 11:29:45,165 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `montant_cheque` int(11) not null default 0
+2023-12-18 11:30:22,000 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `photo_cheque` text
+2023-12-18 11:34:23,159 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `date_encaissement` date
+2023-12-18 11:35:40,645 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `beneficiaire` varchar(140) default 'User'
+2023-12-18 11:48:14,483 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 11:48:50,037 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 11:50:21,738 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 11:51:04,849 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `bl` varchar(140)
+2023-12-18 11:51:04,854 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 11:51:20,732 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 11:51:50,658 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 11:52:25,945 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 11:53:08,331 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 11:56:43,080 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 12:05:02,626 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `amended_from` varchar(140)
+2023-12-18 12:05:02,640 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 12:05:02,655 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD INDEX `amended_from_index`(`amended_from`)
+2023-12-18 12:05:18,054 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 12:06:53,660 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 12:09:54,527 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` ADD COLUMN `workflow_state` varchar(140)
+2023-12-18 12:09:54,531 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 12:11:50,163 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 12:16:28,518 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-18 12:30:38,029 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 12:31:13,852 WARNING database DDL Query made to DB:
+ALTER TABLE `tabVehicle` MODIFY `uom` varchar(140), MODIFY `vehicle_value` decimal(21,9) not null default 0
+2023-12-18 12:31:54,317 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `livreur` varchar(140) default 'User', MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0
+2023-12-18 13:29:27,055 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0
+2023-12-18 13:31:21,486 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0
+2023-12-18 15:21:49,088 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_esp` decimal(21,9) not null default 0, MODIFY `montant_cheque` decimal(21,9) not null default 0
+2023-12-18 15:23:18,017 WARNING database DDL Query made to DB:
+ALTER TABLE `tabPaiements Livraisons` MODIFY `montant_cheque` decimal(21,9) not null default 0, MODIFY `montant_esp` decimal(21,9) not null default 0
+2023-12-19 10:36:46,656 WARNING database DDL Query made to DB:
+ALTER TABLE `tabFacture Route` MODIFY `total_tva_facture` decimal(21,9) not null default 0, MODIFY `total_ht_facture` decimal(21,9) not null default 0, MODIFY `total_ttc_facture` decimal(21,9) not null default 0
+2023-12-19 13:53:10,276 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` ADD COLUMN `test` varchar(140)
+2023-12-19 13:53:10,291 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0
+2023-12-19 13:53:34,467 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0
+2023-12-19 13:54:11,858 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0
+2023-12-19 13:54:24,204 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0
+2023-12-19 13:54:42,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0
+2023-12-19 13:55:18,543 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0
+2023-12-19 14:02:38,713 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0
+2023-12-19 14:05:06,677 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0
+2023-12-19 14:05:20,035 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0
+2023-12-19 14:08:16,110 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0
+2023-12-19 14:08:48,174 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0
+2023-12-19 14:08:56,298 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0
+2023-12-19 14:09:05,746 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0
+2023-12-19 14:09:15,720 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0
+2023-12-19 14:09:32,662 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0
+2023-12-19 14:09:54,421 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0
+2023-12-19 14:10:03,820 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0
+2023-12-19 14:10:28,766 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0
+2023-12-19 14:11:07,950 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0
+2023-12-19 14:13:06,167 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0
+2023-12-19 14:14:16,273 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0
+2023-12-19 14:14:32,098 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0
+2023-12-19 14:16:53,155 WARNING database DDL Query made to DB:
+ALTER TABLE `tabItem` MODIFY `over_delivery_receipt_allowance` decimal(21,9) not null default 0, MODIFY `over_billing_allowance` decimal(21,9) not null default 0, MODIFY `weight_per_unit` decimal(21,9) not null default 0, MODIFY `valuation_rate` decimal(21,9) not null default 0, MODIFY `last_purchase_rate` decimal(21,9) not null default 0, MODIFY `total_projected_qty` decimal(21,9) not null default 0, MODIFY `max_discount` decimal(21,9) not null default 0, MODIFY `safety_stock` decimal(21,9) not null default 0, MODIFY `prix_fr` decimal(21,9) not null default 0, MODIFY `opening_stock` decimal(21,9) not null default 0, MODIFY `standard_rate` decimal(21,9) not null default 0
+2023-12-19 14:25:07,314 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0
+2023-12-19 14:25:49,632 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0
+2023-12-19 14:26:17,347 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0
+2023-12-19 14:28:22,626 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0
+2023-12-19 14:28:57,226 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0
+2023-12-19 14:29:31,111 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0
+2023-12-19 14:30:34,280 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0
+2023-12-19 14:34:02,085 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Order` MODIFY `per_picked` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `advance_paid` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `per_delivered` decimal(21,9) not null default 0
+2023-12-19 14:38:05,446 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0
+2023-12-19 14:38:17,267 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0
+2023-12-19 14:38:44,863 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0
+2023-12-19 14:38:59,760 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0
+2023-12-19 14:41:41,622 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0
+2023-12-19 14:54:13,988 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0
+2023-12-19 14:54:42,312 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0
+2023-12-19 14:56:19,508 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0
+2023-12-19 14:56:39,885 WARNING database DDL Query made to DB:
+ALTER TABLE `tabDelivery Note` MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `per_installed` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `per_billed` decimal(21,9) not null default 0, MODIFY `per_returned` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0
+2023-12-19 14:57:54,378 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Invoice` MODIFY `payment_terms_template` varchar(140), MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `base_paid_amount` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `paid_amount` decimal(21,9) not null default 0, MODIFY `base_change_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `change_amount` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_billing_hours` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_advance` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `outstanding_amount` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `base_write_off_amount` decimal(21,9) not null default 0, MODIFY `write_off_amount` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0
+2023-12-19 14:58:47,364 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Invoice` MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `write_off_amount` decimal(21,9) not null default 0, MODIFY `base_write_off_amount` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `payment_terms_template` varchar(140), MODIFY `grand_total` decimal(21,9) not null default 0, MODIFY `paid_amount` decimal(21,9) not null default 0, MODIFY `change_amount` decimal(21,9) not null default 0, MODIFY `base_change_amount` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `total_billing_hours` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `base_paid_amount` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_advance` decimal(21,9) not null default 0, MODIFY `outstanding_amount` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0
+2023-12-19 14:59:00,070 WARNING database DDL Query made to DB:
+ALTER TABLE `tabSales Invoice` MODIFY `outstanding_amount` decimal(21,9) not null default 0, MODIFY `net_total` decimal(21,9) not null default 0, MODIFY `total_qty` decimal(21,9) not null default 0, MODIFY `change_amount` decimal(21,9) not null default 0, MODIFY `base_change_amount` decimal(21,9) not null default 0, MODIFY `total_advance` decimal(21,9) not null default 0, MODIFY `total_net_weight` decimal(21,9) not null default 0, MODIFY `additional_discount_percentage` decimal(21,9) not null default 0, MODIFY `base_total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `base_rounding_adjustment` decimal(21,9) not null default 0, MODIFY `total_billing_hours` decimal(21,9) not null default 0, MODIFY `base_rounded_total` decimal(21,9) not null default 0, MODIFY `discount_amount` decimal(21,9) not null default 0, MODIFY `paid_amount` decimal(21,9) not null default 0, MODIFY `total` decimal(21,9) not null default 0, MODIFY `loyalty_amount` decimal(21,9) not null default 0, MODIFY `conversion_rate` decimal(21,9) not null default 0, MODIFY `base_net_total` decimal(21,9) not null default 0, MODIFY `base_total` decimal(21,9) not null default 0, MODIFY `total_taxes_and_charges` decimal(21,9) not null default 0, MODIFY `rounding_adjustment` decimal(21,9) not null default 0, MODIFY `base_paid_amount` decimal(21,9) not null default 0, MODIFY `amount_eligible_for_commission` decimal(21,9) not null default 0, MODIFY `base_write_off_amount` decimal(21,9) not null default 0, MODIFY `commission_rate` decimal(21,9) not null default 0, MODIFY `base_discount_amount` decimal(21,9) not null default 0, MODIFY `payment_terms_template` varchar(140), MODIFY `write_off_amount` decimal(21,9) not null default 0, MODIFY `plc_conversion_rate` decimal(21,9) not null default 0, MODIFY `rounded_total` decimal(21,9) not null default 0, MODIFY `total_commission` decimal(21,9) not null default 0, MODIFY `base_grand_total` decimal(21,9) not null default 0, MODIFY `grand_total` decimal(21,9) not null default 0

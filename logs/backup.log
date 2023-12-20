@@ -1,0 +1,384 @@
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231204_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-04 18:00:06.366469
+Config  : ./erpnext.modernph.net/private/backups/20231204_180004-erpnext_modernph_net-site_config_backup.json 140.0B
+Database: ./erpnext.modernph.net/private/backups/20231204_180004-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231205_000006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-05 00:00:10.282969
+Config  : ./erpnext.modernph.net/private/backups/20231205_000006-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231205_000006-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231205_060003-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-05 06:00:06.779297
+Config  : ./erpnext.modernph.net/private/backups/20231205_060003-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231205_060003-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231205_120003-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-05 12:00:06.346986
+Config  : ./erpnext.modernph.net/private/backups/20231205_120003-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231205_120003-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231205_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-05 18:00:06.108833
+Config  : ./erpnext.modernph.net/private/backups/20231205_180004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231205_180004-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231206_000006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-06 00:00:09.871662
+Config  : ./erpnext.modernph.net/private/backups/20231206_000006-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231206_000006-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231206_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-06 06:00:06.222400
+Config  : ./erpnext.modernph.net/private/backups/20231206_060004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231206_060004-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231206_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-06 12:00:07.899734
+Config  : ./erpnext.modernph.net/private/backups/20231206_120004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231206_120004-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231206_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-06 18:00:06.089357
+Config  : ./erpnext.modernph.net/private/backups/20231206_180004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231206_180004-erpnext_modernph_net-database.sql.gz         1.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231207_000007-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-07 00:00:10.508884
+Config  : ./erpnext.modernph.net/private/backups/20231207_000007-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231207_000007-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231207_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-07 06:00:08.644684
+Config  : ./erpnext.modernph.net/private/backups/20231207_060004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231207_060004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231207_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-07 12:00:06.159235
+Config  : ./erpnext.modernph.net/private/backups/20231207_120004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231207_120004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231207_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-07 18:00:06.480239
+Config  : ./erpnext.modernph.net/private/backups/20231207_180004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231207_180004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231208_000007-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-08 00:00:09.809677
+Config  : ./erpnext.modernph.net/private/backups/20231208_000007-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231208_000007-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231208_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-08 06:00:07.781118
+Config  : ./erpnext.modernph.net/private/backups/20231208_060004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231208_060004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231208_120003-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-08 12:00:05.810799
+Config  : ./erpnext.modernph.net/private/backups/20231208_120003-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231208_120003-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231208_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-08 18:00:06.448760
+Config  : ./erpnext.modernph.net/private/backups/20231208_180004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231208_180004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231209_000007-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-09 00:00:09.686925
+Config  : ./erpnext.modernph.net/private/backups/20231209_000007-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231209_000007-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231209_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-09 06:00:07.100991
+Config  : ./erpnext.modernph.net/private/backups/20231209_060004-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231209_060004-erpnext_modernph_net-database.sql.gz         1.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231209_120005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-09 12:00:07.647594
+Config  : ./erpnext.modernph.net/private/backups/20231209_120005-erpnext_modernph_net-site_config_backup.json 207.0B
+Database: ./erpnext.modernph.net/private/backups/20231209_120005-erpnext_modernph_net-database.sql.gz         1.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231209_180005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-09 18:00:08.383388
+Config  : ./erpnext.modernph.net/private/backups/20231209_180005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231209_180005-erpnext_modernph_net-database.sql.gz         1.5MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231210_000010-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-10 00:00:14.912734
+Config  : ./erpnext.modernph.net/private/backups/20231210_000010-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231210_000010-erpnext_modernph_net-database.sql.gz         1.5MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231210_060005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-10 06:00:08.858780
+Config  : ./erpnext.modernph.net/private/backups/20231210_060005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231210_060005-erpnext_modernph_net-database.sql.gz         1.5MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231210_120005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-10 12:00:09.123357
+Config  : ./erpnext.modernph.net/private/backups/20231210_120005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231210_120005-erpnext_modernph_net-database.sql.gz         1.5MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231210_180005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-10 18:00:07.717336
+Config  : ./erpnext.modernph.net/private/backups/20231210_180005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231210_180005-erpnext_modernph_net-database.sql.gz         1.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231211_000010-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-11 00:00:14.573957
+Config  : ./erpnext.modernph.net/private/backups/20231211_000010-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231211_000010-erpnext_modernph_net-database.sql.gz         1.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231211_060005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-11 06:00:09.980140
+Config  : ./erpnext.modernph.net/private/backups/20231211_060005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231211_060005-erpnext_modernph_net-database.sql.gz         1.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231211_120006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-11 12:00:09.996318
+Config  : ./erpnext.modernph.net/private/backups/20231211_120006-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231211_120006-erpnext_modernph_net-database.sql.gz         1.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231211_180007-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-11 18:00:10.762345
+Config  : ./erpnext.modernph.net/private/backups/20231211_180007-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231211_180007-erpnext_modernph_net-database.sql.gz         2.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231212_000009-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-12 00:00:13.998778
+Config  : ./erpnext.modernph.net/private/backups/20231212_000009-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231212_000009-erpnext_modernph_net-database.sql.gz         2.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231212_060005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-12 06:00:10.123654
+Config  : ./erpnext.modernph.net/private/backups/20231212_060005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231212_060005-erpnext_modernph_net-database.sql.gz         2.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231212_120006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-12 12:00:09.962911
+Config  : ./erpnext.modernph.net/private/backups/20231212_120006-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231212_120006-erpnext_modernph_net-database.sql.gz         2.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231212_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-12 18:00:07.740084
+Config  : ./erpnext.modernph.net/private/backups/20231212_180004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231212_180004-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231213_000008-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-13 00:00:14.464974
+Config  : ./erpnext.modernph.net/private/backups/20231213_000008-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231213_000008-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231213_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-13 06:00:08.042653
+Config  : ./erpnext.modernph.net/private/backups/20231213_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231213_060004-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231213_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-13 12:00:06.899492
+Config  : ./erpnext.modernph.net/private/backups/20231213_120004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231213_120004-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231213_180005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-13 18:00:09.580001
+Config  : ./erpnext.modernph.net/private/backups/20231213_180005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231213_180005-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231214_000010-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-14 00:00:35.112148
+Config  : ./erpnext.modernph.net/private/backups/20231214_000010-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231214_000010-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231214_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-14 06:00:08.780367
+Config  : ./erpnext.modernph.net/private/backups/20231214_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231214_060004-erpnext_modernph_net-database.sql.gz         2.6MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231214_120005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-14 12:00:07.439975
+Config  : ./erpnext.modernph.net/private/backups/20231214_120005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231214_120005-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231214_180006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-14 18:00:10.706508
+Config  : ./erpnext.modernph.net/private/backups/20231214_180006-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231214_180006-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231215_000008-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-15 00:00:14.012265
+Config  : ./erpnext.modernph.net/private/backups/20231215_000008-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231215_000008-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231215_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-15 06:00:08.633832
+Config  : ./erpnext.modernph.net/private/backups/20231215_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231215_060004-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231215_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-15 12:00:08.430972
+Config  : ./erpnext.modernph.net/private/backups/20231215_120004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231215_120004-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231215_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-15 18:00:08.432332
+Config  : ./erpnext.modernph.net/private/backups/20231215_180004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231215_180004-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231216_000007-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-16 00:00:12.516823
+Config  : ./erpnext.modernph.net/private/backups/20231216_000007-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231216_000007-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231216_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-16 06:00:08.261170
+Config  : ./erpnext.modernph.net/private/backups/20231216_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231216_060004-erpnext_modernph_net-database.sql.gz         2.7MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231216_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-16 12:00:07.210193
+Config  : ./erpnext.modernph.net/private/backups/20231216_120004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231216_120004-erpnext_modernph_net-database.sql.gz         2.8MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231216_180005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-16 18:00:07.908922
+Config  : ./erpnext.modernph.net/private/backups/20231216_180005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231216_180005-erpnext_modernph_net-database.sql.gz         2.8MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231217_000017-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-17 00:00:39.801961
+Config  : ./erpnext.modernph.net/private/backups/20231217_000017-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231217_000017-erpnext_modernph_net-database.sql.gz         2.8MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231217_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-17 06:00:08.408316
+Config  : ./erpnext.modernph.net/private/backups/20231217_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231217_060004-erpnext_modernph_net-database.sql.gz         2.8MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231217_120005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-17 12:00:07.986660
+Config  : ./erpnext.modernph.net/private/backups/20231217_120005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231217_120005-erpnext_modernph_net-database.sql.gz         2.9MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231217_180004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-17 18:00:08.143132
+Config  : ./erpnext.modernph.net/private/backups/20231217_180004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231217_180004-erpnext_modernph_net-database.sql.gz         3.1MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231218_000010-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-18 00:00:19.438468
+Config  : ./erpnext.modernph.net/private/backups/20231218_000010-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231218_000010-erpnext_modernph_net-database.sql.gz         3.2MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231218_060004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-18 06:00:09.729966
+Config  : ./erpnext.modernph.net/private/backups/20231218_060004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231218_060004-erpnext_modernph_net-database.sql.gz         3.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231218_120004-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-18 12:00:08.485047
+Config  : ./erpnext.modernph.net/private/backups/20231218_120004-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231218_120004-erpnext_modernph_net-database.sql.gz         3.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231218_180005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-18 18:00:08.202893
+Config  : ./erpnext.modernph.net/private/backups/20231218_180005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231218_180005-erpnext_modernph_net-database.sql.gz         3.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231219_000009-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-19 00:00:17.055978
+Config  : ./erpnext.modernph.net/private/backups/20231219_000009-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231219_000009-erpnext_modernph_net-database.sql.gz         3.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231219_060005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-19 06:00:09.643504
+Config  : ./erpnext.modernph.net/private/backups/20231219_060005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231219_060005-erpnext_modernph_net-database.sql.gz         3.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231219_120006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-19 12:00:10.096869
+Config  : ./erpnext.modernph.net/private/backups/20231219_120006-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231219_120006-erpnext_modernph_net-database.sql.gz         3.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231219_180006-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-19 18:00:10.291817
+Config  : ./erpnext.modernph.net/private/backups/20231219_180006-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231219_180006-erpnext_modernph_net-database.sql.gz         4.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231220_000010-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-20 00:00:18.929376
+Config  : ./erpnext.modernph.net/private/backups/20231220_000010-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231220_000010-erpnext_modernph_net-database.sql.gz         4.3MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231220_060005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-20 06:00:09.832699
+Config  : ./erpnext.modernph.net/private/backups/20231220_060005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231220_060005-erpnext_modernph_net-database.sql.gz         4.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed
+self=$$;  ( mariadb-dump --single-transaction --quick --lock-tables=false -u _48d8fe8d2873d56a -p********** _48d8fe8d2873d56a -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./erpnext.modernph.net/private/backups/20231220_120005-erpnext_modernph_net-database.sql.gz
+
+Backup Summary for erpnext.modernph.net at 2023-12-20 12:00:09.922406
+Config  : ./erpnext.modernph.net/private/backups/20231220_120005-erpnext_modernph_net-site_config_backup.json 239.0B
+Database: ./erpnext.modernph.net/private/backups/20231220_120005-erpnext_modernph_net-database.sql.gz         4.4MiB
+Backup for Site erpnext.modernph.net has been successfully completed

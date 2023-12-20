@@ -1,0 +1,199 @@
+2023-12-04 14:19:58,417 DEBUG cd frappe-bench && python3 -m venv env
+2023-12-04 14:20:02,842 DEBUG cd frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2023-12-04 14:20:05,685 DEBUG cd frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet wheel
+2023-12-04 14:20:07,362 LOG Getting frappe
+2023-12-04 14:20:07,363 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2023-12-04 14:20:09,663 LOG Installing frappe
+2023-12-04 14:20:09,663 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/wezri/frappe-bench/apps/frappe 
+2023-12-04 14:21:12,540 DEBUG cd /home/wezri/frappe-bench/apps/frappe && yarn install
+2023-12-04 14:21:38,147 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-04 14:21:38,148 DEBUG cd frappe-bench && bench build
+2023-12-04 14:21:38,283 INFO /usr/local/bin/bench build
+2023-12-04 14:22:06,071 LOG setting up backups
+2023-12-04 14:22:06,092 LOG backups were set up
+2023-12-04 14:22:06,092 INFO Bench frappe-bench initialized
+2023-12-04 14:22:26,582 INFO /usr/local/bin/bench new-site erpnext.modernph.net
+2023-12-04 14:23:49,455 INFO /usr/local/bin/bench get-app –branch version-15 payments
+2023-12-04 14:23:49,858 LOG Getting payments
+2023-12-04 14:23:49,858 DEBUG cd ./apps && git clone https://github.com/frappe/payments.git  --depth 1 --origin upstream
+2023-12-04 14:23:50,409 LOG Installing payments
+2023-12-04 14:23:50,599 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/wezri/frappe-bench/apps/payments 
+2023-12-04 14:23:57,460 DEBUG bench build --app payments
+2023-12-04 14:23:57,587 INFO /usr/local/bin/bench build --app payments
+2023-12-04 14:24:00,261 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-04 14:24:02,955 INFO /usr/local/bin/bench get-app --branch version-15 erpnext
+2023-12-04 14:24:03,331 LOG Getting erpnext
+2023-12-04 14:24:03,331 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2023-12-04 14:24:07,004 LOG Installing erpnext
+2023-12-04 14:24:07,219 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/wezri/frappe-bench/apps/erpnext 
+2023-12-04 14:24:23,080 DEBUG cd /home/wezri/frappe-bench/apps/erpnext && yarn install
+2023-12-04 14:24:23,667 DEBUG bench build --app erpnext
+2023-12-04 14:24:23,785 INFO /usr/local/bin/bench build --app erpnext
+2023-12-04 14:24:27,529 WARNING restart failed: Couldn't find supervisorctl in PATH
+2023-12-04 14:24:50,757 INFO /usr/local/bin/bench --site erpnext.modernph.net install-app erpnext
+2023-12-04 14:26:15,970 INFO /usr/local/bin/bench start
+2023-12-04 14:26:16,268 INFO /usr/local/bin/bench schedule
+2023-12-04 14:26:16,279 INFO /usr/local/bin/bench worker
+2023-12-04 14:26:16,280 INFO /usr/local/bin/bench watch
+2023-12-04 14:26:16,317 INFO /usr/local/bin/bench serve --port 8000
+2023-12-04 14:26:47,133 INFO /usr/local/bin/bench --site erpnext.modernph.net enable-scheduler
+2023-12-04 14:26:56,460 INFO /usr/local/bin/bench --site erpnext.modernph.net set-maintenance-mode off
+2023-12-04 14:29:14,489 INFO /usr/local/bin/bench setup production wezri
+2023-12-04 14:29:14,496 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2023-12-04 14:29:46,059 DEBUG bench setup role fail2ban
+2023-12-04 14:29:46,194 INFO /usr/local/bin/bench setup role fail2ban
+2023-12-04 14:29:57,455 DEBUG bench setup role nginx
+2023-12-04 14:29:57,565 INFO /usr/local/bin/bench setup role nginx
+2023-12-04 14:30:09,500 DEBUG bench setup role supervisor
+2023-12-04 14:30:09,619 INFO /usr/local/bin/bench setup role supervisor
+2023-12-04 14:30:17,299 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-12-04 14:30:17,299 LOG Updated supervisord.conf: 'chown' changed from '' to 'wezri:wezri'
+2023-12-04 14:30:17,374 DEBUG sudo /usr/sbin/nginx -t
+2023-12-04 14:30:17,395 DEBUG sudo systemctl reload nginx
+2023-12-04 14:30:20,834 INFO /usr/local/bin/bench setup production wezri
+2023-12-04 14:30:20,843 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-12-04 14:30:20,843 LOG Updated supervisord.conf: 'chown' changed from '' to 'wezri:wezri'
+2023-12-04 14:30:24,548 DEBUG /usr/bin/supervisorctl reread
+2023-12-04 14:30:24,775 DEBUG /usr/bin/supervisorctl update
+2023-12-04 14:30:25,027 DEBUG sudo /usr/sbin/nginx -t
+2023-12-04 14:30:25,041 DEBUG sudo systemctl reload nginx
+2023-12-04 14:30:25,270 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-04 14:30:25,283 INFO /usr/local/bin/bench schedule
+2023-12-04 14:30:25,316 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-04 14:30:43,318 INFO /usr/local/bin/bench setup nginx
+2023-12-04 14:30:59,612 INFO /usr/local/bin/bench schedule
+2023-12-04 14:30:59,617 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-04 14:30:59,713 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-04 14:31:07,098 INFO /usr/local/bin/bench setup production wezrisudo supervisorctl restart all
+2023-12-04 14:31:07,107 WARNING /usr/local/bin/bench setup production wezrisudo supervisorctl restart all executed with exit code 2
+2023-12-04 14:31:13,300 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-04 14:31:13,306 INFO /usr/local/bin/bench schedule
+2023-12-04 14:31:13,315 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-04 14:31:25,798 INFO /usr/local/bin/bench setup production wezri
+2023-12-04 14:31:25,807 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2023-12-04 14:31:25,807 LOG Updated supervisord.conf: 'chown' changed from '' to 'wezri:wezri'
+2023-12-04 14:31:28,790 DEBUG /usr/bin/supervisorctl reread
+2023-12-04 14:31:29,037 DEBUG /usr/bin/supervisorctl update
+2023-12-04 14:31:29,247 DEBUG sudo /usr/sbin/nginx -t
+2023-12-04 14:31:29,261 DEBUG sudo systemctl reload nginx
+2023-12-04 18:00:02,027 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-05 00:00:01,789 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-05 06:00:01,419 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-05 12:00:01,379 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-05 18:00:02,027 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-06 00:00:02,963 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-06 06:00:02,237 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-06 12:00:02,295 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-06 18:00:01,495 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-07 00:00:02,676 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-07 06:00:02,226 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-07 12:00:01,556 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-07 18:00:02,487 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-08 00:00:03,135 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-08 06:00:02,160 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-08 12:00:01,521 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-08 18:00:01,758 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-09 00:00:02,880 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-09 06:00:01,859 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-09 12:00:02,562 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-09 13:31:06,602 INFO /usr/local/bin/bench --site erpnext.modernph.net set-config server_script_enabled true
+2023-12-09 13:33:15,575 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-09 13:33:15,577 INFO /usr/local/bin/bench schedule
+2023-12-09 13:33:15,591 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-09 13:34:39,922 INFO /usr/local/bin/bench set-config -g server_script_enabled 1
+2023-12-09 18:00:02,174 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-10 00:00:03,478 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-10 06:00:01,975 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-10 12:00:02,267 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-10 18:00:02,412 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-11 00:00:03,934 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-11 06:00:01,923 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-11 12:00:02,971 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-11 18:00:03,201 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-12 00:00:02,626 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-12 06:00:02,516 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-12 12:00:02,565 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-12 18:00:02,520 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-13 00:00:02,818 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-13 06:00:01,660 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-13 12:00:01,833 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-13 18:00:01,765 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-14 00:00:03,734 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-14 06:00:02,603 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-14 12:00:01,851 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-14 18:00:01,834 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-15 00:00:02,978 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-15 06:00:02,645 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-15 12:00:01,904 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-15 18:00:02,221 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-16 00:00:03,504 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-16 06:00:01,645 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-16 12:00:02,159 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-16 18:00:02,364 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-17 00:00:05,813 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-17 06:00:01,471 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-17 12:00:02,371 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-17 18:00:01,629 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-17 18:25:30,048 INFO /usr/local/bin/bench schedule
+2023-12-17 18:25:30,048 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-17 18:25:30,048 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-17 18:32:01,563 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-17 18:32:01,564 INFO /usr/local/bin/bench schedule
+2023-12-17 18:32:01,564 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-17 18:34:10,648 INFO /usr/local/bin/bench new-app Outils Gestion
+2023-12-17 18:34:10,658 WARNING /usr/local/bin/bench new-app Outils Gestion executed with exit code 2
+2023-12-17 18:34:30,382 INFO /usr/local/bin/bench new-app outils_gestion
+2023-12-17 18:34:30,388 LOG creating new app outils_gestion
+2023-12-17 18:35:39,750 LOG Installing outils_gestion
+2023-12-17 18:35:39,753 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/wezri/frappe-bench/apps/outils_gestion 
+2023-12-17 18:35:44,027 DEBUG bench build --app outils_gestion
+2023-12-17 18:35:44,148 INFO /usr/local/bin/bench build --app outils_gestion
+2023-12-17 18:35:53,289 DEBUG cd /home/wezri/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-17 18:35:56,023 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-17 18:35:56,023 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-17 18:35:56,046 INFO /usr/local/bin/bench schedule
+2023-12-17 18:35:58,002 WARNING cd /home/wezri/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-17 18:35:58,002 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-12-17 18:37:03,754 INFO /usr/local/bin/bench --site erpnext.modernph.net install app outils_gestion
+2023-12-17 18:37:03,762 WARNING /usr/local/bin/bench --site erpnext.modernph.net install app outils_gestion executed with exit code 2
+2023-12-17 18:37:45,712 INFO /usr/local/bin/bench --site erpnext.modernph.net install-app outils_gestion
+2023-12-17 20:02:19,575 INFO /usr/local/bin/bench get-app hrms
+2023-12-17 20:02:19,985 LOG Getting hrms
+2023-12-17 20:02:19,985 DEBUG cd ./apps && git clone https://github.com/frappe/hrms.git  --depth 1 --origin upstream
+2023-12-17 20:02:21,884 LOG Installing hrms
+2023-12-17 20:02:22,423 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/wezri/frappe-bench/apps/hrms 
+2023-12-17 20:02:26,370 DEBUG cd /home/wezri/frappe-bench/apps/hrms && yarn install
+2023-12-17 20:03:02,188 DEBUG bench build --app hrms
+2023-12-17 20:03:02,342 INFO /usr/local/bin/bench build --app hrms
+2023-12-17 20:03:11,011 INFO /usr/local/bin/bench schedule
+2023-12-17 20:03:33,824 DEBUG cd /home/wezri/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-17 20:03:34,867 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-17 20:03:34,867 INFO /usr/local/bin/bench schedule
+2023-12-17 20:03:34,875 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-17 20:03:36,804 WARNING cd /home/wezri/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web: executed with exit code 7
+2023-12-17 20:03:36,804 WARNING restarting supervisor failed. Use `bench restart` to retry.
+2023-12-17 20:04:06,918 INFO /usr/local/bin/bench --site erpnext.modernph.net install-app hrms
+2023-12-17 20:04:59,791 INFO /usr/local/bin/bench --site erpnext.modernph.net uninstall-app hrms
+2023-12-17 20:21:51,916 INFO /usr/local/bin/bench schedule
+2023-12-17 20:21:51,917 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-17 20:21:51,918 INFO /usr/local/bin/bench worker --queue short,default
+2023-12-18 00:00:02,848 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-18 06:00:01,612 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-18 12:00:01,647 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-18 18:00:02,363 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-19 00:00:03,472 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-19 06:00:02,185 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-19 12:00:02,792 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-19 18:00:02,412 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-20 00:00:04,906 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-20 06:00:01,811 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-20 12:00:02,065 INFO /usr/local/bin/bench --verbose --site all backup
+2023-12-20 14:28:58,433 INFO /usr/local/bin/bench remove-app hrms
+2023-12-20 14:28:58,591 INFO /usr/local/bin/bench --site all list-apps --format json
+2023-12-20 14:29:01,013 INFO /usr/local/bin/bench --site erpnext.modernph.net list-apps
+2023-12-20 14:29:03,009 DEBUG cd /home/wezri/frappe-bench && /home/wezri/frappe-bench/env/bin/python -m pip uninstall -y hrms
+2023-12-20 14:29:24,755 INFO App moved from apps/hrms to archived/apps/hrms-2023-12-20
+2023-12-20 14:29:30,236 DEBUG cd /home/wezri/frappe-bench && sudo supervisorctl restart frappe-bench-workers: frappe-bench-web:
+2023-12-20 14:29:38,164 INFO /usr/local/bin/bench worker --queue long,default,short
+2023-12-20 14:29:38,181 INFO /usr/local/bin/bench schedule
+2023-12-20 14:29:38,185 INFO /usr/local/bin/bench worker --queue short,default

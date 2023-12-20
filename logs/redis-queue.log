@@ -1,0 +1,104 @@
+11524:C 04 Dec 2023 14:30:25.026 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11524:C 04 Dec 2023 14:30:25.026 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11524, just started
+11524:C 04 Dec 2023 14:30:25.026 # Configuration loaded
+11524:M 04 Dec 2023 14:30:25.026 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11524:M 04 Dec 2023 14:30:25.026 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11565:C 04 Dec 2023 14:30:26.131 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11565:C 04 Dec 2023 14:30:26.131 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11565, just started
+11565:C 04 Dec 2023 14:30:26.131 # Configuration loaded
+11565:M 04 Dec 2023 14:30:26.132 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11565:M 04 Dec 2023 14:30:26.132 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11587:C 04 Dec 2023 14:30:29.122 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11587:C 04 Dec 2023 14:30:29.122 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11587, just started
+11587:C 04 Dec 2023 14:30:29.122 # Configuration loaded
+11587:M 04 Dec 2023 14:30:29.123 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11587:M 04 Dec 2023 14:30:29.123 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11599:C 04 Dec 2023 14:30:32.918 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11599:C 04 Dec 2023 14:30:32.918 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11599, just started
+11599:C 04 Dec 2023 14:30:32.918 # Configuration loaded
+11599:M 04 Dec 2023 14:30:32.918 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11599:M 04 Dec 2023 14:30:32.919 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11645:C 04 Dec 2023 14:30:59.439 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11645:C 04 Dec 2023 14:30:59.439 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11645, just started
+11645:C 04 Dec 2023 14:30:59.439 # Configuration loaded
+11645:M 04 Dec 2023 14:30:59.439 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11645:M 04 Dec 2023 14:30:59.439 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11671:C 04 Dec 2023 14:31:00.706 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11671:C 04 Dec 2023 14:31:00.706 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11671, just started
+11671:C 04 Dec 2023 14:31:00.706 # Configuration loaded
+11671:M 04 Dec 2023 14:31:00.706 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11671:M 04 Dec 2023 14:31:00.706 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11683:C 04 Dec 2023 14:31:03.350 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11683:C 04 Dec 2023 14:31:03.350 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11683, just started
+11683:C 04 Dec 2023 14:31:03.350 # Configuration loaded
+11683:M 04 Dec 2023 14:31:03.351 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11683:M 04 Dec 2023 14:31:03.351 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11692:C 04 Dec 2023 14:31:06.390 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11692:C 04 Dec 2023 14:31:06.390 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11692, just started
+11692:C 04 Dec 2023 14:31:06.390 # Configuration loaded
+11692:M 04 Dec 2023 14:31:06.390 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11692:M 04 Dec 2023 14:31:06.391 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11712:C 04 Dec 2023 14:31:13.184 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11712:C 04 Dec 2023 14:31:13.184 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11712, just started
+11712:C 04 Dec 2023 14:31:13.184 # Configuration loaded
+11712:M 04 Dec 2023 14:31:13.184 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11712:M 04 Dec 2023 14:31:13.185 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11738:C 04 Dec 2023 14:31:14.226 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11738:C 04 Dec 2023 14:31:14.227 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11738, just started
+11738:C 04 Dec 2023 14:31:14.227 # Configuration loaded
+11738:M 04 Dec 2023 14:31:14.227 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11738:M 04 Dec 2023 14:31:14.227 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11748:C 04 Dec 2023 14:31:17.065 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11748:C 04 Dec 2023 14:31:17.065 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11748, just started
+11748:C 04 Dec 2023 14:31:17.065 # Configuration loaded
+11748:M 04 Dec 2023 14:31:17.065 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11748:M 04 Dec 2023 14:31:17.065 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+11767:C 04 Dec 2023 14:31:21.009 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+11767:C 04 Dec 2023 14:31:21.009 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=11767, just started
+11767:C 04 Dec 2023 14:31:21.009 # Configuration loaded
+11767:M 04 Dec 2023 14:31:21.010 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+11767:M 04 Dec 2023 14:31:21.010 # Could not create server TCP listening socket 127.0.0.1:11000: bind: Address already in use
+676:C 09 Dec 2023 13:33:14.205 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+676:C 09 Dec 2023 13:33:14.205 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=676, just started
+676:C 09 Dec 2023 13:33:14.205 # Configuration loaded
+676:M 09 Dec 2023 13:33:14.250 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+676:M 09 Dec 2023 13:33:14.333 * Running mode=standalone, port=11000.
+676:M 09 Dec 2023 13:33:14.333 # Server initialized
+676:M 09 Dec 2023 13:33:14.333 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+676:M 09 Dec 2023 13:33:14.368 * Ready to accept connections
+676:signal-handler (1702833908) Received SIGTERM scheduling shutdown...
+676:M 17 Dec 2023 18:25:08.405 # User requested shutdown...
+676:M 17 Dec 2023 18:25:08.405 * Removing the pid file.
+676:M 17 Dec 2023 18:25:08.406 # Redis is now ready to exit, bye bye...
+685:C 17 Dec 2023 18:25:29.383 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+685:C 17 Dec 2023 18:25:29.383 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=685, just started
+685:C 17 Dec 2023 18:25:29.383 # Configuration loaded
+685:M 17 Dec 2023 18:25:29.384 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+685:M 17 Dec 2023 18:25:29.384 * Running mode=standalone, port=11000.
+685:M 17 Dec 2023 18:25:29.385 # Server initialized
+685:M 17 Dec 2023 18:25:29.385 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+685:M 17 Dec 2023 18:25:29.385 * Ready to accept connections
+685:signal-handler (1702834302) Received SIGTERM scheduling shutdown...
+685:M 17 Dec 2023 18:31:42.377 # User requested shutdown...
+685:M 17 Dec 2023 18:31:42.377 * Removing the pid file.
+685:M 17 Dec 2023 18:31:42.377 # Redis is now ready to exit, bye bye...
+754:C 17 Dec 2023 18:32:01.216 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+754:C 17 Dec 2023 18:32:01.216 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=754, just started
+754:C 17 Dec 2023 18:32:01.216 # Configuration loaded
+754:M 17 Dec 2023 18:32:01.216 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+754:M 17 Dec 2023 18:32:01.217 * Running mode=standalone, port=11000.
+754:M 17 Dec 2023 18:32:01.217 # Server initialized
+754:M 17 Dec 2023 18:32:01.217 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+754:M 17 Dec 2023 18:32:01.218 * Ready to accept connections
+754:signal-handler (1702840892) Received SIGTERM scheduling shutdown...
+754:M 17 Dec 2023 20:21:32.717 # User requested shutdown...
+754:M 17 Dec 2023 20:21:32.717 * Removing the pid file.
+754:M 17 Dec 2023 20:21:32.717 # Redis is now ready to exit, bye bye...
+763:C 17 Dec 2023 20:21:51.482 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+763:C 17 Dec 2023 20:21:51.482 # Redis version=6.0.16, bits=64, commit=00000000, modified=0, pid=763, just started
+763:C 17 Dec 2023 20:21:51.482 # Configuration loaded
+763:M 17 Dec 2023 20:21:51.483 * Increased maximum number of open files to 10032 (it was originally set to 1024).
+763:M 17 Dec 2023 20:21:51.492 * Running mode=standalone, port=11000.
+763:M 17 Dec 2023 20:21:51.492 # Server initialized
+763:M 17 Dec 2023 20:21:51.492 # WARNING overcommit_memory is set to 0! Background save may fail under low memory condition. To fix this issue add 'vm.overcommit_memory = 1' to /etc/sysctl.conf and then reboot or run the command 'sysctl vm.overcommit_memory=1' for this to take effect.
+763:M 17 Dec 2023 20:21:51.493 * Ready to accept connections
